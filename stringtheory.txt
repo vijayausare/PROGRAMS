@@ -1,0 +1,51 @@
+string ;
+
+initialization of a string can be done by following methods
+
+1--> char *string [no of strings ]={ };
+2---> char string[no of strings][size of strings]={};
+3--> string string[] ={}
+4--> using vector 
+ 
+	vector<string > string (variable name );
+
+
+
+1. x.push_back     	-- used to add one char at the end of any string , 							we cant add whol string only char is allowed 
+
+2. x.pop_back     	    -- used to remove one char which is present at 								tthe end of any string 
+
+3. getline(cin, x) 		-- used to read fullline 
+
+4. x.length() 			-- used to get length of string
+
+5. x.capacity ()        -- it shows how much memory is used by string 
+
+6. x.resize(int )			-- we can resize  the string
+
+7. x.shrink_to_fit()      -- this fun allow string memory equal to size of string 
+
+8.x.copy( arr , no _of_char , sttart from )   -- used to copy char from string 
+
+9. x.swap(y) 		-- used to swap strings
+
+10. string :: npos ---- used when no mathces are found in given	
+
+11. 	transform(s.begin(), s.end(), s.begin(), ::toupper); 
+
+12.   	sort(s.begin(), s.end()); sorting thethe string +
+
+13. convert string to no 
+string x="1541231651";
+int xx=stoi(x);
+
+14. convert char to int ----> 	 int f= xx-'0'; //here xx is a char 
+
+
+15. x.substr(fron index , to index) used to crop specific string 
+
+16. to_string(string s) //used to convert string to number 
+
+17. use swap to reverse string       swap(str[i], str[n - i - 1]); 
+
+18. easy way to reverse string  r=s;reverse(r.begin(),r.end());

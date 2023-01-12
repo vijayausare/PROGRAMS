@@ -1,0 +1,6 @@
+Array:
+
+
+1.array declared as global takes 0 as all values 
+2. we cant store elements more that declared 
+3. we can print array as arr[i]or as i[arr]

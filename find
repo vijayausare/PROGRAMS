@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+void main(void){
+
+    int count,i,large=0,j,l=0;
+
+    printf("How many number do u want to compare?");
+    scanf("%d",&count);
+    int num[count];
+
+    printf("so u want to compare %d numbers....ok",count);
+    printf("Now Enter any %d number :",count);
+
+    for (i=0;i<count;i++){
+        scanf("%d",&num[i]);
+    }
+
+    if (large == NULL){
+            large=num[0];
+    }
+
+    for (j=0;j<count;j++){
+        if (num[j]>large){
+            large=num[j];
+     }
+        l=large;
+
+
+
+
+
+
+}
+    printf("larger is =%d",l);
+
+
+}
+
